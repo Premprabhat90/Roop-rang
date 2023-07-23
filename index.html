@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Roop Rang</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://kit.fontawesome.com/b6c12888b9.js" crossorigin="anonymous"></script>
+    <!-- <link rel="shortcut icon" href="logo.png" type="image/x-icon" /> -->
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="./assets/logo.png" alt="Logo" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Works</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closenmenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+        </div>
+    </div>
+
+    <!--===================hero==================== -->
+
+    <div id="hero">
+        <div class="container  header-text">
+            <div class="hero-col-1">
+                <h1>
+                    Hi, <span>Welcome</span> to the
+                    <span> Roop Rang</span>
+                </h1>
+            </div>
+            <div class="hero-col-2">
+                <img src="./assets/Shop.webp" class="hero-img" alt="">
+            </div>
+        </div>
+    </div>
+
+    <!-- ++++++++++++++ABOUT+++++++++++++++++++++ -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="assets/owner.webp" alt="user" />
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">Abot My Shop</h1>
+                    <p>
+                    <h4> We deal all kind of printing jobs & videography, photography and Printing :-</h4>
+                    photocopy | color printout | black&white printout | Digital Photocopy | Map Xerox &scaing | Id
+                    card | Smart card | Color Photocopy | Colour Photicopy | Color map Xerox & Scaning |Laminition |
+                    Spiral Binding | Flex | 12X18 Digital Print| ETC.
+
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">
+                            Online
+                        </p>
+                        <p class="tab-links" onclick="opentab ('experince')">
+                            Printing
+                        </p>
+                        <p class="tab-links tabname" onclick="opentab('education')">
+                            Address
+                        </p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Form</span><br />there are all types's form filleing.</li>
+                            <li>
+                                <span>Exam</span><br />All exam as- SSC MTS, SSC CGL,
+                                Railway, group D, Airforce, Navy, Army, Police
+                                BPSC, UPSC, NDA, JEE, NEET and meny more.
+                            </li>
+                            <li>
+                                <span>Sarkari Yojna</span> <br>
+                                PM Aawas Yojna, PM jan-dhan Yojna, Atal Penshan Yojna, PM suraksha bima Yojna,
+                                Mukhyamantri Vridha Pension Yojana, and meny more.
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experince">
+                        <ul>
+                            <li>
+                                <span>Basic Printing</span><br /> Photocopy,
+                                Colour print out, Black & whitye printing and ETC..
+                            </li>
+                            <li>
+                                <span>Digital Printing</span><br /> ID Card, Smart card, Map Xerox & Scaning, Map colour
+                                printing, and ETC..
+                            </li>
+                            <li>
+                                <span>Banner</span><br /> Laminition, Spiral Binding, Flex, 12X18 Digital printing and
+                                ETC..
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li>
+                                <span>ADDRESS</span><br />
+                                Roop Rang Studio <br>
+                                Old Court Road <br>
+                                Dist. - Nawada <br>
+                                pin - 805110 <br>
+                                state - Bihar <br>
+                                mob. - 9973778544
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ++++++++++++++++++SERVICES --------------->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div class="first">
+                    <i class="fa-solid fa-map-location-dot"></i>
+                    <h2>Map printing</h2>
+                    <p>
+                        Map Xerox, Map Scaning, Map Printing
+                    </p>
+                    <a href="#">Learn more..</a>
+                </div>
+                <div class="second">
+                    <i class="fa-solid fa-print"></i>
+                    <h2>Photography</h2>
+                    <p>
+                        Colour print out, Black & whitye printing, Id Card, Smart Card and ETC..
+                    </p>
+                    <a href="printing">Learn more..</a>
+                </div>
+                <div class="threed">
+                    <i class="fa-solid fa-house"></i>
+                    <h2>Sarkari Yojna</h2>
+                    <p>
+                        PM Aawas Yojna, PM jan-dhan Yojna, Atal Penshan Yojna,
+                    </p>
+                    <a href="#">Learn more..</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--------------- PORTFOLIO ----------------->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="./assets/photo1.webp" alt="work-1" />
+                    <div class="layer">
+                        <h3>photography</h3>
+                        <p>
+                            Our in-house photography services team made up of professional photographers can add value
+                            to your weding with high-resolution team photos, corporate event photography and product
+                            photography.
+                        </p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="./assets/work.webp" alt="work-2" />
+                    <div class="layer">
+                        <h3>Printing</h3>
+                        <p>
+                            Offset Lithography, Flexography, Digital Printing, Large Format, Screen Printing, 3D Printing, LED UV.
+                        </p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="/assets/id card.webp" alt="work-3" class="work-img">
+                    <div class="layer">
+                        <h3>PVC Printing</h3>
+                        <p>	Business Card, Membership Card, ID Card , Office Card
+                            our valuable clients. Also, our offered services are rendered by experts, who enable us to render the exact specifications of our customers
+                            Under the guidance of our experienced professionals, we have been able to offer the commendable range of Plastic Card
+                        </p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+    
+    <!-- --------------Contctus------------ -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p class="on" >
+                        <i class="fa-solid fa-paper-plane"></i>
+                        rooprangstudionawada@gmail.com
+                    </p class="on" >
+                    <p class="on" ><i class="fa-solid fa-square-phone"></i>(+91)9304285444(Monu)</p>
+                    <p class="on" ><i class="fa-solid fa-square-phone"></i>(+91)9608788647(Santosh)</p>
+                    <div class="social-icons">
+                        <a href="https:"><i class="fa-brands fa-facebook"></i></a>
+                        <a href=""><i class="fa-brands fa-twitter"></i></a>
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                        <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required />
+                        <input type="email" name="Email" placeholder="Your email" required />
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright © 2023 Prem Prabhat - All Rights Reserved</p>
+        </div>
+    </div>
+
+
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="script.js"></script>
+</body>
+</html>
